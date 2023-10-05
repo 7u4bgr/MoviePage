@@ -1,0 +1,30 @@
+.background {
+  background: #000000;
+
+    .div{
+      .control{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+
+@media(min-width:992px){
+  .background {
+    background: #000000;
+    .swiper{
+      width: 100%;
+      .div{
+        padding: 26px 0;
+          .control{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+      }
+
+    }
+  }
+      
+}

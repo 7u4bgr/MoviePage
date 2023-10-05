@@ -1,0 +1,161 @@
+.background .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: auto;
+}
+.background .nav .logo {
+  color: #fff;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .nav .main ul {
+  display: none;
+  align-items: center;
+  width: 417px;
+  height: 17px;
+  align-items: flex-start;
+  gap: 62px;
+}
+.background .nav .main ul li {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .nav .signin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .nav .signin input {
+  width: 60px;
+  height: 22px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #1f1f1f;
+  border: 0;
+  padding-left: 17px;
+  color: white;
+}
+.background .nav .signin ::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+.background .nav .signin ::placeholder {
+  color: rgb(255, 255, 255);
+}
+.background .nav .signin button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 22px;
+  border-radius: 8px;
+  background: #ffb422;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .background .nav .logo {
+    font-size: 18px;
+  }
+  .background .nav .signin input {
+    width: 100px;
+    font-size: 11px;
+  }
+}
+@media (min-width: 992px) {
+  .background .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .background .nav .logo {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .background .nav .main ul {
+    display: flex;
+    align-items: center;
+    width: 417px;
+    height: 17px;
+    align-items: flex-start;
+    gap: 62px;
+  }
+  .background .nav .main ul li {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .background .nav .signin {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  .background .nav .signin input {
+    width: 247px;
+    height: 52px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #1f1f1f;
+    border: 0;
+    padding-left: 17px;
+    color: white;
+  }
+  .background .nav .signin ::-moz-placeholder {
+    color: rgb(255, 255, 255);
+  }
+  .background .nav .signin ::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  .background .nav .signin button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ffb422;
+    border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}/*# sourceMappingURL=index.module.css.map */

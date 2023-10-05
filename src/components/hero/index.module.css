@@ -1,0 +1,146 @@
+.div {
+  position: relative;
+}
+.div .joker {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0) 100%);
+}
+.div .welcome {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-15%, -20%);
+}
+.div .welcome .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.div .welcome .texts h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div .welcome .texts p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+.div .welcome .search {
+  display: flex;
+  align-items: center;
+}
+.div .welcome .search input {
+  width: 170px;
+  height: 20px;
+  font-size: 8px;
+  border-radius: 4px 0px 0px 4px;
+  background: #fff;
+  padding-left: 10px;
+  border: none;
+}
+.div .welcome .search button {
+  border: none;
+  height: 22px;
+  font-size: 8px;
+  border-radius: 0px 8px 8px 0px;
+  background: #ffb422;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .div .welcome .texts h2 {
+    font-size: 35px;
+  }
+  .div .welcome .texts p {
+    font-size: 18px;
+  }
+  .div .welcome .search input {
+    width: 330px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .div .welcome .search button {
+    height: 42px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .div {
+    position: relative;
+  }
+  .div .joker {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0) 100%);
+  }
+  .div .welcome {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .div .welcome .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .div .welcome .texts h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .div .welcome .texts p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 15px;
+  }
+  .div .welcome .search {
+    display: flex;
+    align-items: center;
+  }
+  .div .welcome .search input {
+    width: 709px;
+    height: 60px;
+    border-radius: 4px 0px 0px 4px;
+    background: #fff;
+    padding-left: 20px;
+    border: none;
+  }
+  .div .welcome .search button {
+    border: none;
+    height: 62px;
+    padding: 21px 27px 20px 35px;
+    border-radius: 0px 8px 8px 0px;
+    background: #ffb422;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}/*# sourceMappingURL=index.module.css.map */

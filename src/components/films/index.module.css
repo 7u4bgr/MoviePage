@@ -1,0 +1,25 @@
+.background {
+  background: #000000;
+}
+.background .div .control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .background {
+    background: #000000;
+  }
+  .background .swiper {
+    width: 100%;
+  }
+  .background .swiper .div {
+    padding: 26px 0;
+  }
+  .background .swiper .div .control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=index.module.css.map */

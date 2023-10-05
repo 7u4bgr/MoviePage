@@ -1,0 +1,13 @@
+.div {
+  width: 75%;
+  margin: auto;
+  padding: 0 55px;
+}
+
+@media (min-width: 992px) {
+  .div {
+    width: 75%;
+    margin: auto;
+    padding: 0 55px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

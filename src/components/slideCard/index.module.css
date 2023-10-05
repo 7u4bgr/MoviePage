@@ -1,0 +1,50 @@
+.control {
+  display: flex;
+  gap: 24px;
+}
+.control .parents {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.control .parents .thrones {
+  padding-top: 20px;
+}
+.control .parents .thrones .throness {
+  width: 100%;
+  border-radius: 12px;
+  background: url(), lightgray 50%/cover no-repeat;
+}
+.control .parents .dates h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 992px) {
+  .control {
+    display: flex;
+    gap: 24px;
+  }
+  .control .parents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .control .parents .thrones .throness {
+    width: 100%;
+    border-radius: 12px;
+    background: url(), lightgray 50%/cover no-repeat;
+  }
+  .control .parents .dates h2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}/*# sourceMappingURL=index.module.css.map */
